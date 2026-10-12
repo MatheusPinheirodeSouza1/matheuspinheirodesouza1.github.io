@@ -29,3 +29,10 @@ a { color: var(--link); }
 code { font-size: 0.9em; }
 hr { border: 0; border-top: 1px solid var(--linha); margin: 40px 0 0; }
 nav { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--linha); }
+a { overflow-wrap: anywhere; }
+.youtube { margin-top: 32px; padding: 16px 20px; border: 1px solid var(--linha); border-radius: 12px; }
+.youtube h2 { margin-top: 0; display: flex; align-items: center; gap: 10px; }
+.marca-youtube {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 34px; height: 24px; border-radius: 6px; background: #ff0000; color: #fff; font-size: 12px;
+}
